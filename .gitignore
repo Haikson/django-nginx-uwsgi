@@ -22,6 +22,7 @@ lib64/
 parts/
 sdist/
 var/
+/upload.bat
 *.egg-info/
 .installed.cfg
 *.egg
@@ -109,3 +110,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.bat
