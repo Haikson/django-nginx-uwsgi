@@ -6,7 +6,7 @@ files = ["dnuconfig/*"]
 
 setup(
     name='django-nginx-uwsgi',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     url='http://www.haikson.com/',
     license='GPL3',

@@ -20,6 +20,12 @@ class DNUConfig:
             directory = '{}/'.format(directory)
         self.PROJECT_DIR = directory
 
+    def set_socks_dir(self, directory):
+        self.SOCKS_DIR = directory
+
+    def set_logs_dir(self, directory):
+        self.LOGS_DIR = directory
+
     def set_domain(self, domain):
         if domain:
             self.DOMAIN = domain
