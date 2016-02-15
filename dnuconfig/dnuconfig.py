@@ -49,7 +49,7 @@ class DNUConfig:
         return s
 
     def set_nginx_conf(self):
-        f = open('nginc.conf')
+        f = open('nginx.conf')
         s = f.read()
         f.close()
         s = s.format(**self.__dict__)
